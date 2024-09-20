@@ -19,6 +19,7 @@ public void setName(int numOfPuppies){
     numPuppies = numOfPuppies; 
 }
 public int showName(){
+    
     return numPuppies; 
 }
 public void setPuppies(String[] Puppies){
