@@ -17,4 +17,7 @@ class Person {
     public String getAddress() {
         return Address;
     }
+    public String toString(){
+        return "Hello I am " + Name + " and " + "I lived in " + Address + ".";
+    }
 }

@@ -1,21 +1,35 @@
+class Student extends Person {
+    private String Program;
+    private int Year;
 
-class Student {
-    private int Student_Id;
-    private String Name;
-
-    public void setStudentId(int Student_Id) {
-        this.Student_Id = Student_Id;
-    }
-
-    public int getStudentId() {
-        return Student_Id;
-    }
-
-    public void setName(String Name) {
+    public Student(String Name, String Address, String Program, int Year) {
         this.Name = Name;
+        this.Address = Address;
+        this.Program = Program;
+        this.Year = Year;
     }
 
-    public String getName() {
-        return Name;
+    public void setProgram(String program) {
+        this.Program = program;
     }
+
+    public String getProgram() {
+        return Program;
+    }
+
+    public void setYear(int year) {
+        this.Year = year;
+    }
+
+    public int getYear() {
+        return Year;
+
+         
+    }
+    @Override
+        public String toString(){
+    
+         return "Hello I am "+ Name + " and " + "I lived in "+ Address + ". I am\t"+ Year + " year of" + Program + ".";
+
+        }
 }

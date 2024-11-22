@@ -1,4 +1,4 @@
-public class InheritanceSample {
+public class Polymorphism{
     public static void main(String[] args) {
         Student student = new Student("Isabella", "Calaca City, Batangas", "Information Technology", 2);
         
